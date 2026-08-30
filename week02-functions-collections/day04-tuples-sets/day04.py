@@ -42,3 +42,7 @@ print("In either class:", class_a | class_b)
 numbers1 = [1, 5, 7, 9, 5, 7, 3, 3, 4]
 no_duplicate = list(set(numbers1))
 print(no_duplicate)
+
+# Day 3 remove_duplicates(): preserves original order, but requires a manual loop (more code)
+# Day 4 list(set(numbers)): much shorter (1 line), but does NOT guarantee original order is preserved
+# → use the set version when order doesn't matter; use the manual loop version when it does
