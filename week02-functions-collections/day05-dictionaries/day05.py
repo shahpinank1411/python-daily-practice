@@ -79,3 +79,4 @@ for fruit in prices:
     quantity = quantities[fruit]
     total_cost = total_cost + (price * quantity)
 print(total_cost)
+
